@@ -43,7 +43,7 @@ namespace Mc2.CrudTest.Service.Catalog
         }
 
 
-        public async Task<CustomerListItemDTO> SearchCustomerByIdAsync(int id)
+        public async Task<CustomerListItemDTO> GetCustomerByIdAsync(int id)
         {
             var customer = await _repositoryCustomer.GetByIdAsync(id);
 
@@ -59,7 +59,7 @@ namespace Mc2.CrudTest.Service.Catalog
             return true;
         }
 
-        public async Task<CustomerRegisterDTO> RegisterCustomerAsync(CustomerRegisterDTO customerDTO)
+        public async Task<CustomerDTO> RegisterCustomerAsync(CustomerDTO customerDTO)
         {
             var customer = customerDTO.ToEntity<Customer>();
             await _repositoryCustomer.InsertAsync(customer);
@@ -74,7 +74,7 @@ namespace Mc2.CrudTest.Service.Catalog
             await _repositoryCustomer.DeleteAsync(customer);
         }
 
-        public async Task UpdateCustomerAsync(CustomerRegisterDTO customerDTO)
+        public async Task UpdateCustomerAsync(CustomerDTO customerDTO)
         {
 
             var customer = _repositoryCustomer.GetById(customerDTO.ID);

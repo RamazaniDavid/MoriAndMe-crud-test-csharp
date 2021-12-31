@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj": {}
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj": {}
   },
   "projects": {
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj",
         "projectName": "Mc2.CrudTest.Core",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,25 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj",
         "projectName": "Mc2.CrudTest.Data",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
               }
             }
           }
@@ -174,25 +166,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj",
         "projectName": "Mc2.CrudTest.Framework",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -206,11 +194,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
               },
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj"
               }
             }
           }
@@ -253,25 +241,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj",
         "projectName": "Mc2.CrudTest.Service",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -285,11 +269,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
               },
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj"
               }
             }
           }
@@ -328,25 +312,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
         "projectName": "Mc2.CrudTest.Presentation.Front",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -399,7 +379,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.1, 6.0.1]"
+              "version": "[6.0.0, 6.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -407,7 +387,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -416,21 +396,17 @@
         }
       }
     },
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
         "projectName": "Mc2.CrudTest.Presentation.Server",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -444,20 +420,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
               },
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj"
               },
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj"
               },
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj"
               },
-              "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj": {
-                "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj"
+              "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj": {
+                "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj"
               }
             }
           }
@@ -475,6 +451,14 @@
             "Mapster": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
@@ -545,7 +529,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

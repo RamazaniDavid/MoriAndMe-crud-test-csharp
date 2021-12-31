@@ -133,6 +133,28 @@
           "lib/netstandard2.0/Mapster.Core.dll": {}
         }
       },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "MessagePack/2.1.152": {
         "type": "package",
         "dependencies": {
@@ -4416,6 +4438,37 @@
         "lib/netstandard2.0/Mapster.Core.dll",
         "mapster.core.1.2.0.nupkg.sha512",
         "mapster.core.nuspec"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "MessagePack/2.1.152": {
@@ -12688,6 +12741,8 @@
       "Mc2.CrudTest.Framework >= 1.0.0",
       "Mc2.CrudTest.Presentation.Front >= 1.0.0",
       "Mc2.CrudTest.Service >= 1.0.0",
+      "MediatR >= 9.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Proxies >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
@@ -12703,24 +12758,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mojgol\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\javan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
+      "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
       "projectName": "Mc2.CrudTest.Presentation.Server",
-      "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
-      "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-      "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\obj\\",
+      "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
+      "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+      "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12734,20 +12784,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
-              "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
+            "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj": {
+              "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Core\\Mc2.CrudTest.Core.csproj"
             },
-            "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
-              "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj"
+            "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj": {
+              "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Data\\Mc2.CrudTest.Data.csproj"
             },
-            "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj": {
-              "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj"
+            "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj": {
+              "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Framework\\Mc2.CrudTest.Framework.csproj"
             },
-            "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
-              "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj"
+            "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj": {
+              "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Domain\\Service\\Mc2.CrudTest.Service.csproj"
             },
-            "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj": {
-              "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj"
+            "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj": {
+              "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj"
             }
           }
         }
@@ -12765,6 +12815,14 @@
           "Mapster": {
             "target": "Package",
             "version": "[7.2.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
@@ -12835,7 +12893,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

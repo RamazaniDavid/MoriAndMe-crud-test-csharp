@@ -6,7 +6,7 @@ namespace Mc2.CrudTest.Service.DTOs
 {
    
 
-    public class CustomerRegisterDTO:BaseEntityDTO
+    public class CustomerDTO:BaseEntityDTO
     {
 
         public string FirstName { get; set; }

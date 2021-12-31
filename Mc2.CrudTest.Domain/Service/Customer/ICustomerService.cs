@@ -7,12 +7,12 @@ namespace Mc2.CrudTest.Service.Catalog
     public interface ICustomerService
     {
     
-        Task<CustomerRegisterDTO> RegisterCustomerAsync(CustomerRegisterDTO categoryDTO);
+        Task<CustomerDTO> RegisterCustomerAsync(CustomerDTO customerDTO);
         Task RemoveCustomerAsync(int id);
         Task<IEnumerable<CustomerListItemDTO>> getCustomersAsync();
         
-        Task<CustomerListItemDTO> SearchCustomerByIdAsync(int id);
-        Task UpdateCustomerAsync(CustomerRegisterDTO categoryDTO);
+        Task<CustomerListItemDTO> GetCustomerByIdAsync(int id);
+        Task UpdateCustomerAsync(CustomerDTO customerDTO);
         Task<bool> IsExistsCustomerAsync(int id);
     }
 }

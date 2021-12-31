@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj": {}
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj": {}
   },
   "projects": {
-    "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj": {
+    "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj",
+        "projectUniqueName": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj",
         "projectName": "Mc2.CrudTest.AcceptanceTests",
-        "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj",
-        "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-        "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\obj\\",
+        "projectPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\Mc2.CrudTest.AcceptanceTests.csproj",
+        "packagesPath": "C:\\Users\\javan\\.nuget\\packages\\",
+        "outputPath": "F:\\Interview\\MoriAndMe-crud-test-csharp\\Mc2.CrudTest.AcceptanceTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\javan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
