@@ -38,7 +38,7 @@ namespace Mc2.CrudTest.Framework.Infrastructure
             app.UseSwaggerUI(c =>
             {
 
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Shop2 API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MC2 CRUD Test API V1");
             });
             app.UseMiddleware<PoweredByMiddleware>();
 
@@ -53,7 +53,7 @@ namespace Mc2.CrudTest.Framework.Infrastructure
             services.AddScoped<IErrorHandler, ErrorHandler>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Shop", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MC2 CRUD Test", Version = "v1" });
             });
 
             services.AddCors(options =>
@@ -69,21 +69,16 @@ namespace Mc2.CrudTest.Framework.Infrastructure
             {
                 c.SwaggerDoc("v1.0", new OpenApiInfo
                 {
-                    Version = "ورژن یک",
-                    Title = " وب سرویس فروشگاه",
-                    Description = " در این وب سرویس مشخصات فروشگاه شرح داده می شود",
+                    Version = "Version 1",
+                    Title = "MC2 CRUD Test ",
+                    Description = "Just For Test ",
                     TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Mc2.CrudTest Team",
-                        Email = string.Empty,
-                        Url = new Uri("https://twitter.com/Mc2.CrudTest"),
+                        Name = "Ramazani David",
+                        Email = "Ramazani.david.job@gmail.com",
+                        Url = new Uri("https://www.ramazani.david.info"),
                     },
-                    License = new OpenApiLicense
-                    {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://Mc2.CrudTest.ir/license"),
-                    }
                 });
             });
 

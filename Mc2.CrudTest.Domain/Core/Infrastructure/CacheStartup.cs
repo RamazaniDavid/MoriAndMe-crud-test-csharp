@@ -21,17 +21,8 @@ namespace Mc2.CrudTest.Core.Infrastructure
         {
 
             services.AddMemoryCache();
-            //services.AddStackExchangeRedisCache(option =>
-            //{
-            //    option.Configuration = "127.0.0.1:6379";
-            //    option.InstanceName = "master";
-            //});
-
-          
-
 
             services.AddScoped<ICacheManager, MemoryCacheManager>();
-           // services.AddScoped<ICacheManager, RedisCacheManager>();
 
         }
 

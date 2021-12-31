@@ -23,12 +23,6 @@ namespace Mc2.CrudTest.Data
 
         }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=ShopG2;Integrated Security=true;");
-        //    base.OnConfiguring(optionsBuilder);
-        //}
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(SqlServerApplicationContext).Assembly);

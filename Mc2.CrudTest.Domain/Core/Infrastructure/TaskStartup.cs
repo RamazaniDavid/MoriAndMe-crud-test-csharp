@@ -60,7 +60,7 @@ namespace Mc2.CrudTest.Core.Infrastructure
             services.AddHangfireServer();
 
 
-         
+
 
         }
 

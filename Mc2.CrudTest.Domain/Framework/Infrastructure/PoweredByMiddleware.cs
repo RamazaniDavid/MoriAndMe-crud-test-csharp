@@ -17,8 +17,7 @@ namespace Mc2.CrudTest.Framework.Infrastructure
         public Task Invoke(HttpContext httpContext)
         {
 
-            httpContext.Response.Headers["X-Powered-By"] = "Morteza Ghasemi";
-            httpContext.Response.Headers["Server"] = "Morteza Ghasemi";
+            httpContext.Response.Headers["X-Powered-By"] = "Ramazani David";
             return _next.Invoke(httpContext);
         }
     }

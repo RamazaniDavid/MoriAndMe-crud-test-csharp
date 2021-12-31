@@ -15,9 +15,6 @@
     <ProjectReference Include="..\Data\Mc2.CrudTest.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Media\" />
-    <Folder Include="Validators\" />
-  </ItemGroup>
+ 
 
 </Project>

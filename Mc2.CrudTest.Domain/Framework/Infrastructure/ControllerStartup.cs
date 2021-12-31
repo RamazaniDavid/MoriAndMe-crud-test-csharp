@@ -40,7 +40,7 @@ namespace Mc2.CrudTest.Framework.Infrastructure
 
             configController.ConfigureApiBehaviorOptions((option) =>
             {
-                option.ClientErrorMapping[404].Title = " منبع مورد نظر پیدا نشد ";
+                option.ClientErrorMapping[404].Title = "Not Found";
                 option.InvalidModelStateResponseFactory = (Context) =>
                 {
                     var values = Context.ModelState.Values.Where(state => state.Errors.Count != 0)
