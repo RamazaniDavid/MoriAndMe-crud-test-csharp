@@ -23,7 +23,7 @@ namespace Mc2.CrudTest.Presentation.Server.Customer
 
         public async Task<IEnumerable<CustomerListItemDTO>> Handle(GetCustomersQuery request, CancellationToken cancellationToken)
         {
-            var customers = await _cacheManager.GetAsych("ProductSearchKey",1000*60*10, async () => await _customerService.getCustomersAsync());
+            var customers = await _cacheManager.GetAsych("ProductSearchKey",1000*60, async () => await _customerService.getCustomersAsync());
               
             return customers;
         }

@@ -10,4 +10,8 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Mc2.CrudTest.Domain\DTOs\Mc2.CrudTest.DTOs.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,5 @@
 ﻿@page "/fetchdata"
-@using Mc2.CrudTest.Presentation.Front.ViewModel
+@using Mc2.CrudTest.Service.DTOs
 @inject HttpClient _http
 
 <h1>Customer List</h1>
@@ -38,11 +38,11 @@ else
 }
 
 @code {
-    private Customer[] _customers;
+    private CustomerListItemDTO[] _customers;
 
     protected override async Task OnInitializedAsync()
     {
-        _customers = await _http.GetFromJsonAsync<Customer[]>("api/Customer");
+        _customers = await _http.GetFromJsonAsync<CustomerListItemDTO[]>("api/Customer");
     }
 
 }
