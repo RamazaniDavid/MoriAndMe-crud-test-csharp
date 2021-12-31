@@ -1,4 +1,5 @@
-﻿using Mc2.CrudTest.Core.Domian;
+﻿using Mc2.CrudTest.Core.Caching;
+using Mc2.CrudTest.Core.Domian;
 using Mc2.CrudTest.Data;
 using Mc2.CrudTest.Service.DTOs;
 using Mc2.CrudTest.Service.Extentions;
@@ -18,28 +19,25 @@ namespace Mc2.CrudTest.Service.Catalog
         public CustomerService(IRepository<Customer> repositoryCustomer)
         {
             _repositoryCustomer = repositoryCustomer;
-        }
 
+        }
 
         public async Task<IEnumerable<CustomerListItemDTO>> getCustomersAsync()
         {
 
-            var _list = await _repositoryCustomer.TableNoTracking
-              .Select(p => new CustomerListItemDTO
-              {
-                  ID = p.ID,
-                  BankAccountNumber = p.BankAccountNumber,
-                  Email = p.Email,
-                  PhoneNumber =p.CountryCode+"-"+ p.PhoneNumber,
-                  FirstName = p.FirstName,
-                  LastName = p.LastName,
-                  BirthDate=p.DateOfBirth.ToShortDateString(),
 
+            return await _repositoryCustomer.TableNoTracking
+          .Select(p => new CustomerListItemDTO
+          {
+              ID = p.ID,
+              BankAccountNumber = p.BankAccountNumber,
+              Email = p.Email,
+              PhoneNumber = p.CountryCode + "-" + p.PhoneNumber,
+              FirstName = p.FirstName,
+              LastName = p.LastName,
+              BirthDate = p.DateOfBirth.ToShortDateString(),
+          }).ToListAsync();
 
-              }).ToListAsync();
-
-
-            return _list;
         }
 
 
