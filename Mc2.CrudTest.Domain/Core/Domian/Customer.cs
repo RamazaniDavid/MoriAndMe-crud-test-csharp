@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Core.Domian
+namespace Mc2.CrudTest.Core.Domian
 {
     public class Customer : BaseEntity
     {

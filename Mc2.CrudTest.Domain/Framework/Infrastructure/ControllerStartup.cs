@@ -1,4 +1,4 @@
-﻿using Devsharp.Core.Infrastructure;
+﻿using Mc2.CrudTest.Core.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -7,8 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Devsharp.Framework.Infrastructure.Filters;
-namespace Devsharp.Framework.Infrastructure
+using Mc2.CrudTest.Framework.Infrastructure.Filters;
+namespace Mc2.CrudTest.Framework.Infrastructure
 {
     public class ControllerStartup :IApplicationStartup
     {

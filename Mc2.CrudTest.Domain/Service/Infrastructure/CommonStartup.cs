@@ -1,10 +1,10 @@
-﻿using Devsharp.Core.Infrastructure;
-using Devsharp.Service.Catalog;
+﻿using Mc2.CrudTest.Core.Infrastructure;
+using Mc2.CrudTest.Service.Catalog;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Devsharp.Service.Infrastructure
+namespace Mc2.CrudTest.Service.Infrastructure
 {
     public class CommonStartup:IApplicationStartup
     {

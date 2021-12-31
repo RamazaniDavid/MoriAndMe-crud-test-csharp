@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Data
+namespace Mc2.CrudTest.Data
 {
     public class DbParamter
     {

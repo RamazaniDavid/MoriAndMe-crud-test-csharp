@@ -1,11 +1,11 @@
-﻿using Devsharp.Core.Domian;
+﻿using Mc2.CrudTest.Core.Domian;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Data.Mapping
+namespace Mc2.CrudTest.Data.Mapping
 {
     public class CustomerMap : IEntityTypeConfiguration<Customer>
     {

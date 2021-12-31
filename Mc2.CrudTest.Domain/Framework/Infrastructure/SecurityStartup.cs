@@ -1,4 +1,4 @@
-﻿using Devsharp.Core.Infrastructure;
+﻿using Mc2.CrudTest.Core.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Framework.Infrastructure
+namespace Mc2.CrudTest.Framework.Infrastructure
 {
     public class SecurityStartup : IApplicationStartup
     {

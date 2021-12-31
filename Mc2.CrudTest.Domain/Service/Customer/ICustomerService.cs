@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Devsharp.Service.DTOs;
+using Mc2.CrudTest.Service.DTOs;
 
-namespace Devsharp.Service.Catalog
+namespace Mc2.CrudTest.Service.Catalog
 {
     public interface ICustomerService
     {

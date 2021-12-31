@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Core.Tasks
+namespace Mc2.CrudTest.Core.Tasks
 {
     public interface ITaskSchduler
     {

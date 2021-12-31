@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Devsharp.Framework.Infrastructure
+namespace Mc2.CrudTest.Framework.Infrastructure
 {
     public class ErrorHandlerMiddleware
     {

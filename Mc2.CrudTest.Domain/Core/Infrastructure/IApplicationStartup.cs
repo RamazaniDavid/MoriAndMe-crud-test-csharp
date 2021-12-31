@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Core.Infrastructure
+namespace Mc2.CrudTest.Core.Infrastructure
 {
     public interface IApplicationStartup
     {

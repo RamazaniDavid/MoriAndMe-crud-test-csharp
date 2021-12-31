@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Framework
+namespace Mc2.CrudTest.Framework
 {
     [Route("api/[controller]")]
     [ApiController]
-   public class DevsharpController: ControllerBase
+   public class Mc2.CrudTestController: ControllerBase
     {
     }
 }

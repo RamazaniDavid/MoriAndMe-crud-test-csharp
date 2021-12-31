@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Devsharp.Core\Devsharp.Core.csproj" />
+    <ProjectReference Include="..\Core\Mc2.CrudTest.Core.csproj" />
   </ItemGroup>
 
 </Project>

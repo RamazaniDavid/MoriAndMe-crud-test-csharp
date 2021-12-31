@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Devsharp.Framework.Infrastructure.Filters
+namespace Mc2.CrudTest.Framework.Infrastructure.Filters
 {
     public class LogFilterAttribute : Attribute, IActionFilter,IAsyncActionFilter
     {

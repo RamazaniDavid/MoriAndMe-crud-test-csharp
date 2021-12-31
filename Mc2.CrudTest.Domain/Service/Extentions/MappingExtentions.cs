@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Devsharp.Core;
-using Devsharp.Core.Domian;
-using Devsharp.Service.DTOs;
+using Mc2.CrudTest.Core;
+using Mc2.CrudTest.Core.Domian;
+using Mc2.CrudTest.Service.DTOs;
 using Mapster;
 
-namespace Devsharp.Service.Extentions
+namespace Mc2.CrudTest.Service.Extentions
 {
     public static class MappingExtentions
     {

@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Devsharp.Core\Devsharp.Core.csproj" />
-    <ProjectReference Include="..\Devsharp.Data\Devsharp.Data.csproj" />
+    <ProjectReference Include="..\Core\Mc2.CrudTest.Core.csproj" />
+    <ProjectReference Include="..\Data\Mc2.CrudTest.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

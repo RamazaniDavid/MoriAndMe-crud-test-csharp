@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Devsharp.Framework": {
+    "Mc2.CrudTest.Framework": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

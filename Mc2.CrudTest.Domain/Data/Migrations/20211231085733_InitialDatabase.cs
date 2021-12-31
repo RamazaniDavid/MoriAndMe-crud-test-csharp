@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Devsharp.Data.Migrations
+namespace Mc2.CrudTest.Data.Migrations
 {
     public partial class InitialDatabase : Migration
     {

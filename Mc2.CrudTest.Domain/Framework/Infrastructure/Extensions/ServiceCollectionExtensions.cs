@@ -1,13 +1,13 @@
-﻿using Devsharp.Core.Extenstions;
-using Devsharp.Core.Infrastructure;
-using Devsharp.Core.Tasks;
+﻿using Mc2.CrudTest.Core.Extenstions;
+using Mc2.CrudTest.Core.Infrastructure;
+using Mc2.CrudTest.Core.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-namespace Devsharp.Framework.Infrastructure.Extensions
+namespace Mc2.CrudTest.Framework.Infrastructure.Extensions
 {
     public static class ServiceCollectionExtensions
     {

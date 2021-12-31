@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Devsharp.Service.Infrastructure
+namespace Mc2.CrudTest.Service.Infrastructure
 {
     public class MapsterConfigMiddleWare
     {

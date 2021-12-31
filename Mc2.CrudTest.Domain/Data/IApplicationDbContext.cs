@@ -1,4 +1,4 @@
-﻿using Devsharp.Core;
+﻿using Mc2.CrudTest.Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Devsharp.Data
+namespace Mc2.CrudTest.Data
 {
     public interface IApplcationDbContext
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Devsharp.Core.Caching;
+using Mc2.CrudTest.Core.Caching;
 using Hangfire;
 using Hangfire.SqlServer;
 using Microsoft.AspNetCore.Builder;
@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Devsharp.Core.Infrastructure
+namespace Mc2.CrudTest.Core.Infrastructure
 {
     public class TaskStartup : IApplicationStartup
     {

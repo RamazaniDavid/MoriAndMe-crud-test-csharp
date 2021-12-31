@@ -1,11 +1,11 @@
-﻿using Devsharp.Core;
+﻿using Mc2.CrudTest.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Devsharp.Data
+namespace Mc2.CrudTest.Data
 {
     public partial interface IRepository<TEntity> where TEntity : Entity
     {

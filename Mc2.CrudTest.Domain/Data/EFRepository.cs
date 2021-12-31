@@ -1,4 +1,4 @@
-﻿using Devsharp.Core;
+﻿using Mc2.CrudTest.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace Devsharp.Data
+namespace Mc2.CrudTest.Data
 {
     public class EFRepository<TEntity> : IRepository<TEntity> where TEntity : Entity
     {

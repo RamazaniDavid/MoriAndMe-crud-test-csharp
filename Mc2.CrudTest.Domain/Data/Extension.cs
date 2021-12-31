@@ -1,5 +1,5 @@
-﻿using Devsharp.Core;
-using Devsharp.Core.Extenstions;
+﻿using Mc2.CrudTest.Core;
+using Mc2.CrudTest.Core.Extenstions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Devsharp.Data
+namespace Mc2.CrudTest.Data
 {
     public static class Extension
     {

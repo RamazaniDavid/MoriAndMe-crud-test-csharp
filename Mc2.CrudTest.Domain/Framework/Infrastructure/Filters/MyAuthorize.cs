@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Devsharp.Framwork.Infrastructure.Filters
+namespace Mc2.CrudTest.Framwork.Infrastructure.Filters
 {
     public class MyAutorizeAttribute : Attribute, IAsyncAuthorizationFilter
     {

@@ -1,4 +1,4 @@
-﻿using Devsharp.Core.Infrastructure;
+﻿using Mc2.CrudTest.Core.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Framework.Infrastructure
+namespace Mc2.CrudTest.Framework.Infrastructure
 {
     public class CommonStartup : IApplicationStartup
     {
@@ -75,14 +75,14 @@ namespace Devsharp.Framework.Infrastructure
                     TermsOfService = new Uri("https://example.com/terms"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Devsharp Team",
+                        Name = "Mc2.CrudTest Team",
                         Email = string.Empty,
-                        Url = new Uri("https://twitter.com/devsharp"),
+                        Url = new Uri("https://twitter.com/Mc2.CrudTest"),
                     },
                     License = new OpenApiLicense
                     {
                         Name = "Use under LICX",
-                        Url = new Uri("https://devsharp.ir/license"),
+                        Url = new Uri("https://Mc2.CrudTest.ir/license"),
                     }
                 });
             });

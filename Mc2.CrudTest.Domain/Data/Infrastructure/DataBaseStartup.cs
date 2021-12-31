@@ -1,4 +1,4 @@
-﻿using Devsharp.Core.Infrastructure;
+﻿using Mc2.CrudTest.Core.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Data.Infrastructure
+namespace Mc2.CrudTest.Data.Infrastructure
 {
     public class DataBaseStartup : IApplicationStartup
     {

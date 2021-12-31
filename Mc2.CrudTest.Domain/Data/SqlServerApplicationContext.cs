@@ -1,5 +1,5 @@
-﻿using Devsharp.Core;
-using Devsharp.Data.Mapping;
+﻿using Mc2.CrudTest.Core;
+using Mc2.CrudTest.Data.Mapping;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Devsharp.Data
+namespace Mc2.CrudTest.Data
 {
     public class SqlServerApplicationContext:DbContext, IApplcationDbContext
     {

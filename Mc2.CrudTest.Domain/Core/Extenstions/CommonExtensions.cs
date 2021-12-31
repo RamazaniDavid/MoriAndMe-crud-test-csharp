@@ -6,14 +6,14 @@ using System.Reflection;
 using System.Runtime.Loader;
 using System.Text;
 
-namespace Devsharp.Core.Extenstions
+namespace Mc2.CrudTest.Core.Extenstions
 {
     public static class CommonExtensions
     {
         public static List<string> GetAllClassNames(this Type type)
         {
             var _lista = new List<Assembly>();
-            foreach (string dllPath in Directory.GetFiles(System.AppContext.BaseDirectory, "Devsharp.*.dll"))
+            foreach (string dllPath in Directory.GetFiles(System.AppContext.BaseDirectory, "Mc2.CrudTest.*.dll"))
             {
                 var shadowCopiedAssembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(dllPath);
                 _lista.Add(shadowCopiedAssembly);
@@ -26,7 +26,7 @@ namespace Devsharp.Core.Extenstions
         public static List<Type> GetAllClassTypes(this Type type)
         {
             var _lista = new List<Assembly>();
-            foreach (string dllPath in Directory.GetFiles(System.AppContext.BaseDirectory, "Devsharp.*.dll"))
+            foreach (string dllPath in Directory.GetFiles(System.AppContext.BaseDirectory, "Mc2.CrudTest.*.dll"))
             {
                 var shadowCopiedAssembly = AssemblyLoadContext.Default.LoadFromAssemblyPath(dllPath);
                 _lista.Add(shadowCopiedAssembly);

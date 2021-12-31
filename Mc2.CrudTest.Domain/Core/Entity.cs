@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Core
+namespace Mc2.CrudTest.Core
 {
     public class Entity:IEntity
     {

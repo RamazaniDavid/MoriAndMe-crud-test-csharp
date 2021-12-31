@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Framework
+namespace Mc2.CrudTest.Framework
 {
     public class BaseEnitityModel
     {

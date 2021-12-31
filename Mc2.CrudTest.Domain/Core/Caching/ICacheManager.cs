@@ -1,6 +1,6 @@
 using System;
 
-namespace Devsharp.Core.Caching
+namespace Mc2.CrudTest.Core.Caching
 {
 
     public interface ICacheManager: IDisposable

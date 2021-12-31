@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Devsharp.Service.DTOs
+namespace Mc2.CrudTest.Service.DTOs
 {
 
 

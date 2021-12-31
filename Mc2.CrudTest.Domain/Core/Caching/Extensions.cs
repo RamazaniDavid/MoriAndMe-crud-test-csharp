@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-namespace Devsharp.Core.Caching
+namespace Mc2.CrudTest.Core.Caching
 {
     public static class Extensions
     {
