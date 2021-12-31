@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="libphonenumber-csharp" Version="8.12.38" />
     <PackageReference Include="Mapster" Version="4.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.0.1" />
   </ItemGroup>
