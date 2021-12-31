@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\wwwroot\" />
+</StaticWebAssets>

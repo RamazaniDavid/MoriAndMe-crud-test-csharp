@@ -1,0 +1,12 @@
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\bin\Debug\net5.0\Mc2.CrudTest.Domain.deps.json
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\bin\Debug\net5.0\Mc2.CrudTest.Domain.dll
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\bin\Debug\net5.0\ref\Mc2.CrudTest.Domain.dll
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\bin\Debug\net5.0\Mc2.CrudTest.Domain.pdb
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.csproj.AssemblyReference.cache
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.AssemblyInfoInputs.cache
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.AssemblyInfo.cs
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.csproj.CoreCompileInputs.cache
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.dll
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\ref\Mc2.CrudTest.Domain.dll
+F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Domain\obj\Debug\net5.0\Mc2.CrudTest.Domain.pdb
