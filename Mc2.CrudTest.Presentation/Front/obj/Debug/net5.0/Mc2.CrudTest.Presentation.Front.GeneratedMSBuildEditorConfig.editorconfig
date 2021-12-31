@@ -10,4 +10,4 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Mc2.CrudTest.Presentation.Front
-build_property.ProjectDir = F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\
+build_property.ProjectDir = F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GG5XWK/zCsX3jFqZAh/8TgjESNqdbg0EE9iiFZz0/U58xKmeYgHPk5nbZ5gtnTmH6oKCr1VNhsP6xe/NHVpSOg==",
+  "dgSpecHash": "ugAOZekRZPjIJ9dZfBtzXIhw9Ncx7vJAGr2rErbE1WchbzVrOzIUJN2BViSMGEzpyH5LaROzbeZW1ZKJAZad/Q==",
   "success": true,
-  "projectFilePath": "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
+  "projectFilePath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Server\\Mc2.CrudTest.Presentation.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.11\\microsoft.aspnetcore.authorization.5.0.11.nupkg.sha512",
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.11\\microsoft.aspnetcore.components.5.0.11.nupkg.sha512",
@@ -29,8 +29,7 @@
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.jsinterop\\5.0.11\\microsoft.jsinterop.5.0.11.nupkg.sha512",
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.11\\microsoft.jsinterop.webassembly.5.0.11.nupkg.sha512",
     "C:\\Users\\Mojgol\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
-    "C:\\Users\\Mojgol\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\Mojgol\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

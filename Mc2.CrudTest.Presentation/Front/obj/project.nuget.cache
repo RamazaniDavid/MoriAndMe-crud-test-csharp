@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P01GrrVKmGwluybJZgibaQQrRznJvBdwbfr0FfI3dtaKE56b/sI4F8aTrbPcFweQwGITIJbnt8dYXEe2ytStdQ==",
+  "dgSpecHash": "ObTJfFDmKyuibNWRMfn2rg3VUNL9oZ9HSJiuG8a5csVfWowiFr3Q/AsJkTaLW9AWKqUHe35r8WuQJ6QgzwXcPA==",
   "success": true,
-  "projectFilePath": "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
+  "projectFilePath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.11\\microsoft.aspnetcore.authorization.5.0.11.nupkg.sha512",
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.11\\microsoft.aspnetcore.components.5.0.11.nupkg.sha512",

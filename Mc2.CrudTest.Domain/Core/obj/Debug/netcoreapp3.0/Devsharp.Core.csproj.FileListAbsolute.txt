@@ -1,0 +1,18 @@
+E:\Web API\G2\ShopProject\Devsharp.Core\bin\Debug\netcoreapp3.0\Devsharp.Core.deps.json
+E:\Web API\G2\ShopProject\Devsharp.Core\bin\Debug\netcoreapp3.0\Devsharp.Core.dll
+E:\Web API\G2\ShopProject\Devsharp.Core\bin\Debug\netcoreapp3.0\Devsharp.Core.pdb
+E:\Web API\G2\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.csprojAssemblyReference.cache
+E:\Web API\G2\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.AssemblyInfoInputs.cache
+E:\Web API\G2\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.AssemblyInfo.cs
+E:\Web API\G2\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.dll
+E:\Web API\G2\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.pdb
+F:\React\ShopProject\Devsharp.Core\bin\Debug\netcoreapp3.0\Devsharp.Core.deps.json
+F:\React\ShopProject\Devsharp.Core\bin\Debug\netcoreapp3.0\Devsharp.Core.dll
+F:\React\ShopProject\Devsharp.Core\bin\Debug\netcoreapp3.0\Devsharp.Core.pdb
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.csproj.AssemblyReference.cache
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.AssemblyInfoInputs.cache
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.AssemblyInfo.cs
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.csproj.CoreCompileInputs.cache
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.dll
+F:\React\ShopProject\Devsharp.Core\obj\Debug\netcoreapp3.0\Devsharp.Core.pdb

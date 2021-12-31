@@ -305,16 +305,6 @@
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
         }
-      },
-      "Mc2.CrudTest.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Mc2.CrudTest.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Mc2.CrudTest.Domain.dll": {}
-        }
       }
     },
     "net5.0/browser-wasm": {
@@ -620,16 +610,6 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
-        }
-      },
-      "Mc2.CrudTest.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Mc2.CrudTest.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Mc2.CrudTest.Domain.dll": {}
         }
       }
     }
@@ -1155,35 +1135,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Mc2.CrudTest.Domain/1.0.0": {
-      "type": "project",
-      "path": "../../Mc2.CrudTest.Domain/Mc2.CrudTest.Domain.csproj",
-      "msbuildProject": "../../Mc2.CrudTest.Domain/Mc2.CrudTest.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Mc2.CrudTest.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.11",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.11",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mojgol\\.nuget\\packages\\": {}
+    "C:\\Users\\Mojgol\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
+      "projectUniqueName": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
       "projectName": "Mc2.CrudTest.Presentation.Front",
-      "projectPath": "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
+      "projectPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
       "packagesPath": "C:\\Users\\Mojgol\\.nuget\\packages\\",
-      "outputPath": "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\obj\\",
+      "outputPath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Mojgol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1196,11 +1175,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Domain\\Mc2.CrudTest.Domain.csproj": {
-              "projectPath": "F:\\My Work\\MyGit\\crud-test-csharp\\Mc2.CrudTest.Domain\\Mc2.CrudTest.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

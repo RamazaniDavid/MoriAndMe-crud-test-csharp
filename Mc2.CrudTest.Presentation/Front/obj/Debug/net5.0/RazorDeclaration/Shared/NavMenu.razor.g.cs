@@ -13,63 +13,63 @@ namespace Mc2.CrudTest.Presentation.Front.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 1 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 2 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 3 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 4 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 5 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 6 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 7 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 8 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
+#line 9 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\_Imports.razor"
 using Mc2.CrudTest.Presentation.Front.Shared;
 
 #line default
@@ -83,7 +83,7 @@ using Mc2.CrudTest.Presentation.Front.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "F:\My Work\MyGit\crud-test-csharp\Mc2.CrudTest.Presentation\Front\Shared\NavMenu.razor"
+#line 28 "F:\My Work\Interviews Codes\crud-test-csharp\Mc2.CrudTest.Presentation\Front\Shared\NavMenu.razor"
        
     private bool _collapseNavMenu = true;
 
