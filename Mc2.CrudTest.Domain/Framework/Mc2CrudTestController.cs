@@ -7,7 +7,7 @@ namespace Mc2.CrudTest.Framework
 {
     [Route("api/[controller]")]
     [ApiController]
-   public class Mc2.CrudTestController: ControllerBase
+    public class Mc2CrudTestController : ControllerBase
     {
     }
 }

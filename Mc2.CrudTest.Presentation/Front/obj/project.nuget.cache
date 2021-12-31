@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ObTJfFDmKyuibNWRMfn2rg3VUNL9oZ9HSJiuG8a5csVfWowiFr3Q/AsJkTaLW9AWKqUHe35r8WuQJ6QgzwXcPA==",
+  "dgSpecHash": "HXbHGSQf5JLGsM1ihgoHFTShXB71Wv5lsJ3jRK0nwkYS4H1IHMb7mnD2GX2kDnd3A9lRnCl6FFMiF4NUnjV/1Q==",
   "success": true,
   "projectFilePath": "F:\\My Work\\Interviews Codes\\crud-test-csharp\\Mc2.CrudTest.Presentation\\Front\\Mc2.CrudTest.Presentation.Front.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.11\\microsoft.jsinterop.webassembly.5.0.11.nupkg.sha512",
     "C:\\Users\\Mojgol\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\Mojgol\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.13\\microsoft.netcore.app.runtime.browser-wasm.5.0.13.nupkg.sha512"
+    "C:\\Users\\Mojgol\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.1\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }

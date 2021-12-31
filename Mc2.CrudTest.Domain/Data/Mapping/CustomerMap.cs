@@ -14,8 +14,8 @@ namespace Mc2.CrudTest.Data.Mapping
             builder.Property(p => p.CountryCode).IsRequired().HasColumnType("varchar").HasMaxLength(2);
             builder.Property(p => p.PhoneNumber).IsRequired().HasColumnType("varchar").HasMaxLength(11);
           
-            builder.Property(p => p.LastName).IsRequired();
-            builder.Property(p => p.FirstName).IsRequired();
+            builder.Property(p => p.LastName).IsRequired().HasMaxLength(150);
+            builder.Property(p => p.FirstName).IsRequired().HasMaxLength(150);
 
             builder.Property(p => p.Email).IsRequired().HasMaxLength(50);
             builder.Property(p => p.BankAccountNumber).IsRequired().HasMaxLength(50);
