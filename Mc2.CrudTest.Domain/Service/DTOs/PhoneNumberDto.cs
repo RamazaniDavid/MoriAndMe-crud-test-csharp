@@ -6,7 +6,7 @@ namespace Mc2.CrudTest.Service.DTOs
 {
    
 
-    public class PhoneNumberDTO:BaseEntityDTO
+    public class PhoneNumberDTO
     {
 
         public string CountryCode { get; set; }

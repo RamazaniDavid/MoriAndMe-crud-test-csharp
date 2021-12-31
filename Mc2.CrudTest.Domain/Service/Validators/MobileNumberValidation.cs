@@ -9,7 +9,7 @@ using Mc2.CrudTest.Service.DTOs;
 
 namespace Mc2.CrudTest.Service.Validators
 {
-    public class MobileNumberValidation : ValidationAttribute
+    public class MobileNumberValidationAttribute : ValidationAttribute
     {
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)

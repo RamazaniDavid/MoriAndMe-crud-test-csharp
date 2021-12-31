@@ -1,0 +1,48 @@
+﻿@page "/fetchdata"
+@using Mc2.CrudTest.Presentation.Front.ViewModel
+@inject HttpClient _http
+
+<h1>Customer List</h1>
+
+<p>List of customers.</p>
+
+
+
+@if (_customers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Birthdate</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cus in _customers)
+            {
+                <tr>
+                    <td>@cus.FirstName</td>
+                    <td>@cus.LastName</td>
+                    <td>@cus.BirthDate</td>
+                    <td>@cus.PhoneNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Customer[] _customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _customers = await _http.GetFromJsonAsync<Customer[]>("api/Customer");
+    }
+
+}

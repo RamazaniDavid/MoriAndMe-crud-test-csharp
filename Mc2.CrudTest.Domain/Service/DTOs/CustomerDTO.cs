@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Mc2.CrudTest.Service.Validators;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Mc2.CrudTest.Service.DTOs
@@ -18,6 +20,8 @@ namespace Mc2.CrudTest.Service.DTOs
 
         public string BankAccountNumber { get; set; }
 
+        [MobileNumberValidation]
+        [NotMapped]
         public PhoneNumberDTO PhoneNumberDto
         {
             get
