@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using Mc2.CrudTest.Core;
 using Mc2.CrudTest.Core.Domian;
-using Mc2.CrudTest.Service.DTOs;
 using Mapster;
+using Mc2.CrudTest.Common.DTOs;
 
 namespace Mc2.CrudTest.Service.Extentions
 {

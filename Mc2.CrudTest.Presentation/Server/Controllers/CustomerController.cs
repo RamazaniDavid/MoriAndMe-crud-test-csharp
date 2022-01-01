@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
+using Mc2.CrudTest.Common.DTOs;
 using Mc2.CrudTest.Framework;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Mc2.CrudTest.Service.DTOs;
 using MediatR;
 using Mc2.CrudTest.Presentation.Server.Features.Models.Customer.Query;
 using Mc2.CrudTest.Presentation.Server.Features.Models.Customer.Command;

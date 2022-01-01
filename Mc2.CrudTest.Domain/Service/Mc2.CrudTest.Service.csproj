@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common\Mc2.CrudTest.Common.csproj" />
     <ProjectReference Include="..\Core\Mc2.CrudTest.Core.csproj" />
     <ProjectReference Include="..\Data\Mc2.CrudTest.Data.csproj" />
-    <ProjectReference Include="..\DTOs\Mc2.CrudTest.DTOs.csproj" />
   </ItemGroup>
 
  

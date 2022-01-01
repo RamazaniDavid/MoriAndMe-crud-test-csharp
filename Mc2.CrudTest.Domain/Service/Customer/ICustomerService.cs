@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Mc2.CrudTest.Service.DTOs;
+using Mc2.CrudTest.Common.DTOs;
 
 namespace Mc2.CrudTest.Service.Catalog
 {

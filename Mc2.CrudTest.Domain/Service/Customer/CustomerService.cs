@@ -1,7 +1,6 @@
 ﻿using Mc2.CrudTest.Core.Caching;
 using Mc2.CrudTest.Core.Domian;
 using Mc2.CrudTest.Data;
-using Mc2.CrudTest.Service.DTOs;
 using Mc2.CrudTest.Service.Extentions;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Mc2.CrudTest.Common.DTOs;
 
 namespace Mc2.CrudTest.Service.Catalog
 {

@@ -1,5 +1,4 @@
-﻿
-using Mc2.CrudTest.Service.DTOs;
+﻿using Mc2.CrudTest.Common.DTOs;
 using MediatR;
 
 namespace Mc2.CrudTest.Presentation.Server.Features.Models.Customer.Command

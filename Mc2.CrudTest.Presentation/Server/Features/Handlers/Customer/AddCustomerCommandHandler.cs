@@ -1,10 +1,10 @@
 ﻿
 using Mc2.CrudTest.Presentation.Server.Features.Models.Customer.Command;
 using Mc2.CrudTest.Service.Catalog;
-using Mc2.CrudTest.Service.DTOs;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
+using Mc2.CrudTest.Common.DTOs;
 
 namespace Mc2.CrudTest.Presentation.Server.Customer
 {

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Mc2.CrudTest.Domain\DTOs\Mc2.CrudTest.DTOs.csproj" />
+    <ProjectReference Include="..\..\Mc2.CrudTest.Domain\Common\Mc2.CrudTest.Common.csproj" />
   </ItemGroup>
 
 </Project>

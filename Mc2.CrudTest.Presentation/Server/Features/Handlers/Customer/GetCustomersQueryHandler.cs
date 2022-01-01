@@ -4,8 +4,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
+using Mc2.CrudTest.Common.DTOs;
 using Mc2.CrudTest.Service.Catalog;
-using Mc2.CrudTest.Service.DTOs;
 using Mc2.CrudTest.Presentation.Server.Features.Models.Customer.Query;
 using Mc2.CrudTest.Core.Caching;
 
