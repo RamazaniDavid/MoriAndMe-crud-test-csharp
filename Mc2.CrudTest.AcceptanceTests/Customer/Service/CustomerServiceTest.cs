@@ -1,12 +1,10 @@
-﻿
-using Mc2.CrudTest.Data;
+﻿using Mc2.CrudTest.Data;
 using Mc2.CrudTest.Service.Customers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Mc2.CrudTest.AcceptanceTests.Customer.Service
@@ -16,12 +14,20 @@ namespace Mc2.CrudTest.AcceptanceTests.Customer.Service
     {
         private CustomerService _customerService;
         private Mock<IRepository<Mc2.CrudTest.Core.Domian.Customer>> _customerRepositoryMock;
+
         [TestInitialize()]
         public void Init()
         {
             _customerRepositoryMock = new Mock<IRepository<Mc2.CrudTest.Core.Domian.Customer>>();
             _customerService = new CustomerService(_customerRepositoryMock.Object);
+
+            _customerRepositoryMock.Setup(x => x.GetByIdAsync(It.IsAny<int>())).Returns(() =>
+            {
+                return Task.FromResult(GetMockCustomerList().FirstOrDefault(p => p.ID == -1));
+            });
+
         }
+
         [TestMethod()]
         public void RegisterCustomer_NullArgument_ThrowException()
         {
@@ -35,14 +41,28 @@ namespace Mc2.CrudTest.AcceptanceTests.Customer.Service
 
 
         [TestMethod()]
-        public void GetCustomerById_ShouldReturnNull()
+        public  void GetCustomerById_ShouldReturnNull()
         {
-            //var allCategory = GetMockCategoryList();
-            //var category = new Grand.Domain.Catalog.Category() { ParentCategoryId = "3" };
-            //_aclServiceMock.Setup(a => a.Authorize<Grand.Domain.Catalog.Category>(It.IsAny<Grand.Domain.Catalog.Category>(), It.IsAny<Customer>())).Returns(() => true);
-            //_aclServiceMock.Setup(a => a.Authorize<Grand.Domain.Catalog.Category>(It.IsAny<Grand.Domain.Catalog.Category>(), It.IsAny<string>())).Returns(() => true);
-            //var result = _categoryService.GetCategoryBreadCrumb(category, allCategory);
-            //Assert.IsTrue(result.Count == 0);
+            var result =  _customerService.GetCustomerByIdAsync(-1).Result;
+            Assert.IsTrue(result == null);
+        }
+        [TestMethod()]
+        public async Task InsertCustomer_ValidArgumentst()
+        {
+            await _customerService.RegisterCustomerAsync(new Common.DTOs.CustomerDTO());
+            _customerRepositoryMock.Verify(c=>c.InsertAsync(It.IsAny<Core.Domian.Customer>()), Times.Once());
+           
+        }
+        private IList<Core.Domian.Customer> GetMockCustomerList()
+        {
+            return new List<Core.Domian.Customer>()
+            {
+                new Core.Domian.Customer{ID=1,BankAccountNumber="101-230100-2210",FirstName="morteza",LastName="ghasemi",Email="mortezaghasemi12@gmail.com",CountryCode="1010",PhoneNumber="101320100",DateOfBirth=DateTime.Now},
+                new Core.Domian.Customer{ID=2,BankAccountNumber="101-230100-2211",FirstName="ali",LastName="karimi",Email="alikarimi6500@gmail.com",CountryCode="1010",PhoneNumber="101320130",DateOfBirth=DateTime.Now},
+                new Core.Domian.Customer{ID=3,BankAccountNumber="101-230100-2212",FirstName="reza",LastName="ghaderi",Email="rezaghaderi400@gmail.com",CountryCode="1010",PhoneNumber="101320120",DateOfBirth=DateTime.Now},
+                new Core.Domian.Customer{ID=4,BankAccountNumber="101-230100-2213",FirstName="morid",LastName="haghkhah",Email="moridhaghkhah20@gmail.com",CountryCode="1010",PhoneNumber="101320133",DateOfBirth=DateTime.Now},
+                new Core.Domian.Customer{ID=5,BankAccountNumber="101-230100-2214",FirstName="david",LastName="ramezani",Email="davidramezani9800@gmail.com",CountryCode="1010",PhoneNumber="101320198",DateOfBirth=DateTime.Now},
+            };
         }
     }
 }
