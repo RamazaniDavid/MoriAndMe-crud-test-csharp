@@ -48,7 +48,7 @@ else
 
     async Task EditCustomer(int Id)
     {
-        await DialogService.OpenAsync<CustomerDialog>($"Edit Customer",
+        await DialogService.OpenAsync<CustomerDialogPage>($"Edit Customer",
             new Dictionary<string, object>() { { "CustomerId", Id } },
             new DialogOptions() { Width = "700px", Height = "570px" });
     }
